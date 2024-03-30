@@ -62,7 +62,7 @@
     }
     
   ],
-    "start_url": "/home.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#79004F",

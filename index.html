@@ -5,11 +5,28 @@
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
         <meta name="author" content="Ruth Xavier">
         <meta name="theme-color" content="#FDCBCA">
+        <meta name="background_color" content="#79004F">
         <meta name="description" content="PWA de Receitas Caseiras">
+        <meta name="mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileImage" content=".assets/img/180.png">
+  <meta name="msapplication-TileColor" content="#141414">
+  <link rel="shortcut icon" sizes="180x180" href=".assets/img/180.png">
+  <link rel="shortcut icon" sizes="120x120" href=".assets/img/120.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#141414">
+  <meta name="apple-mobile-web-app-title" content="TuRecetas">
+  <link rel="apple-touch-icon" href=".assets/img/180.png">
+  <link rel="apple-touch-icon" sizes="114x114" href=".assets/img/114.png">
+  <link rel="apple-touch-icon" sizes="180x180" href=".assets/img/180.png">
+  <link rel="apple-touch-icon" sizes="120x120" href=".assets/img/120.png">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
 
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/reset.css">
         <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/login.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
@@ -19,21 +36,44 @@
     <body>
         <header>  <!-- cabeçalho do site-->
 
-            
 
-            <nav>
+            <div class="pai">
+
+                <img src="./assets/img_user/logonome.svg">
+        
+                <h3> Olá! Seja bem-vindo ao nosso cantinho de receitas cheias de afeto ♥</h3> </br>
 
 
-            </nav>
+
+            </header> 
+
+            <main> 
 
 
-        </header>
+                <div class="pai"> 
 
-        <main> 
+                    <div id="btnentrar"> 
+                        <button id="destaque"><a href="login.html">Entrar</a></button>
+                    </div>
+
+                    <div id="btncadastro">
+                        <button id="border"><a href="#">Cadastrar</a></button>
+                    </div>
+
+
+                    <p class="cadaslogin">Já tem conta?<a href="login.html" class="links"> Faça login!</a></p>
+
+
+                </div>
+
 
         </main>
 
         <footer>
+
+            <img src="./assets/img/29.png" class="footerp"></br>
+            <p class="footerp">TuRecetas</p></br>
+            <p class="footerp">© Desenvolvido por<a href="https://github.com/xavierruth" class="footerp">Ruth Xavier</a>.</p> </br>
 
         </footer>
 

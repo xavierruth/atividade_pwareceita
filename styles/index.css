@@ -1,0 +1,56 @@
+header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+}
+
+
+
+
+button {
+    border-radius: var(--border-radius-sm, 8px);
+    border: 1.5px solid var(--Primary-Pink-500, #D0004B);
+    padding: 10px 20px; /* Adicionei padding para melhorar a aparência */
+    margin-bottom: 20px; /* Adicionei margem inferior para separar os botões */
+    width: 90%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#btnentrar{
+
+    font-family: 'Inter',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+
+   #destaque {
+    flex: 1;
+    background-color: var(--Primary-Pink-600, #B20152);
+    width: 90%; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+    text-align: center; /* Alinhamento do texto */
+}
+
+
+.footerp {
+    background-color: #B20152;
+    color: aliceblue;
+    text-align: center; /* Centralizei o texto */
+    padding: 10px; /* Adicionei padding para espaçamento interno */
+}
+
+footer {
+    flex: 1;
+    background-color: #B20152;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    bottom: 0; /* Fixei o rodapé na parte inferior */
+}
