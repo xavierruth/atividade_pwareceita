@@ -41,7 +41,7 @@
 	  "purpose": "any maskable"
     },
     {
-      "src": "path/to/maskable_icon.png",
+      "src": "assets/img/maskable_icon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
@@ -77,6 +77,7 @@
   ],
     "start_url": "/index.html",
     "display": "standalone",
+    "description": "PWA de Receitas Caseiras",
     "orientation": "portrait",
     "background_color": "#79004F",
     "theme_color": "#FDCBCA",
