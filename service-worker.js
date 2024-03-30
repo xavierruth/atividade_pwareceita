@@ -37,16 +37,17 @@ self.addEventListener('install', event => {
         './login.html',
 
 
-        './assets/img/logo_29.png',
-        './assets/img/logo_40.png',
-        './assets/img/logo_55.png',
-        './assets/img/logo_60.png',
-        './assets/img/logo_80.png',
-        './assets/img/logo_90.png',
-        './assets/img/logo_114.png',
-        './assets/img/logo_120.png',
-        './assets/img/logo_180.png',
-        './assets/img/logo_1024.png',
+        './assets/img/29.png',
+        './assets/img/40.png',
+        './assets/img/57.png',
+        './assets/img/58.png',
+        './assets/img/60.png',
+        './assets/img/80.png',
+        './assets/img/87.png',
+        './assets/img/114.png',
+        './assets/img/120.png',
+        './assets/img/180.png',
+        './assets/img/1024.png',
 
       ]))
   );
