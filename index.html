@@ -80,17 +80,18 @@
 
         <script>
             if ('serviceWorker' in navigator) {
-              window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/service-worker.js')
-                  .then(function(registration) {
-                    console.log('Service worker registrado com sucesso:', registration);
-                  })
-                  .catch(function(error) {
-                    console.log('Erro ao registrar o service worker:', error);
-                  });
-              });
+                window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/service-worker.js')
+                        .then(function(registration) {
+                            console.log('Service worker registrado com sucesso:', registration);
+                        })
+                        .catch(function(error) {
+                            console.log('Erro ao registrar o service worker:', error);
+                        });
+                });
             }
-          </script>
+        </script>
+        
 
         
 
