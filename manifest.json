@@ -3,83 +3,83 @@
   "short_name": "TURecetas",
   "icons": [
     {
-      "src": "assets/img/512.png",
+      "src": "./assets/img/512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "assets/img/512.png",
+      "src": "./assets/img/512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "assets/img/1024.png",
+      "src": "./assets/img/1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     },
     {
-      "src": "assets/img/180.png",
+      "src": "./assets/img/180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "assets/img/120.png",
+      "src": "./assets/img/120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "assets/img/114.png",
+      "src": "./assets/img/114.png",
       "sizes": "114x114",
       "type": "image/png"
     },
     {
-      "src": "assets/img/90.png",
+      "src": "./assets/img/90.png",
       "sizes": "90x90",
       "type": "image/png"
     },
     {
-      "src": "assets/img/80.png",
+      "src": "./assets/img/80.png",
       "sizes": "80x80",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "assets/img/60.png",
+      "src": "./assets/img/60.png",
       "sizes": "60x60",
       "type": "image/png"
     },
     {
-      "src": "assets/img/58.png",
+      "src": "./assets/img/58.png",
       "sizes": "58x58",
       "type": "image/png"
     },
     {
-      "src": "assets/img/57.png",
+      "src": "./assets/img/57.png",
       "sizes": "57x57",
       "type": "image/png"
     },
     {
-      "src": "assets/img/40.png",
+      "src": "./assets/img/40.png",
       "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "assets/img/29.png",
+      "src": "./assets/img/29.png",
       "sizes": "29x29",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {  
-      "src": "assets/img/1024.png",
+      "src": "./assets/img/1024.png",
       "sizes": "1024x1024",
       "type": "image/gif",
       "label": "Wonder Widgets"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "description": "PWA de Receitas Caseiras",
   "orientation": "portrait",
@@ -88,16 +88,13 @@
   "prefer_related_applications": true,
   "splash_screen": {
     "background_color": "#141414",
-
-    "splash_screen": {
-      "background_color": "#141414", 
-      "icons": [{
-        "src": "assets/img/120.png", 
+    "icons": [
+      {
+        "src": "./assets/img/120.png",
         "sizes": "209x42",
         "type": "image/png"
-      }]
-    }
-  
+      }
+    ]
   },
   "id": "turecetas",
   "lang": "pt",
