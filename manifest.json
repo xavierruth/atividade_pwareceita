@@ -31,7 +31,7 @@
       "src": "assets/img/logo_80.png",
       "sizes": "80x80",
       "type": "image/png",
-	  "purpose": "any maskable"
+	  "purpose": "maskable"
     },
     {
       "src": "assets/img/logo_60.png",
