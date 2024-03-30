@@ -71,6 +71,14 @@
       "type": "image/png"
     }
   ],
+  "screenshots": [
+    {  
+      "src": "assets/img/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/gif",
+      "label": "Wonder Widgets"
+    }
+  ],
   "start_url": "index.html",
   "display": "standalone",
   "description": "PWA de Receitas Caseiras",
@@ -80,13 +88,16 @@
   "prefer_related_applications": true,
   "splash_screen": {
     "background_color": "#141414",
-    "icons": [
-      {
-        "src": "assets/img/80.png",
+
+    "splash_screen": {
+      "background_color": "#141414", 
+      "icons": [{
+        "src": "assets/img/120.png", 
         "sizes": "209x42",
         "type": "image/png"
-      }
-    ]
+      }]
+    }
+  
   },
   "id": "turecetas",
   "lang": "pt",
