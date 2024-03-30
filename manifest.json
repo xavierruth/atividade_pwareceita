@@ -2,6 +2,13 @@
   "name": "TURecetas",
   "short_name": "UR",
   "icons": [
+
+    {
+      "src": "assets/img/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+
     {
       "src": "assets/img/1024.png",
       "sizes": "1024x1024",
