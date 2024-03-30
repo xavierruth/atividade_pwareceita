@@ -65,7 +65,7 @@
     "start_url": "/home.html",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": "#4D5360",
+    "background_color": "#79004F",
     "theme_color": "#FDCBCA",
     "splash_screen": {
       "background_color": "#141414", 
