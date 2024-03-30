@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ruth Xavier">
+    <meta name="theme-color" content="#FDCBCA">
+    <meta name="description" content="PWA de Receitas Caseiras">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+
+    <title>Área de Login</title>
+</head>
+<body>
+
+    <div class="inicio">
+
+        <img src="./assets/img_user/logonome.svg">
+
+        <h1> Bem-vindo de Volta!</h1>
+
+
+    </div>
+    
+    <form name="loginForm" method="post" action="home.html">
+
+
+        <div class="container cont1">
+
+             <div class="formdados">
+
+                <label for="username">Seu Usuário:</label>
+                     <input type="text" name="username" id="username" placeholder="Digite seu usuário. Ex: Ana." required>
+                <label for="senha">Sua Senha</label>
+                     <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui!" required>
+                 
+        
+            </div>
+
+            <div class="container cont2">
+        
+                <div class="lembrarsenha">
+
+                    <label>
+                         <input type="checkbox" class="cadaslogin"> <p>Lembrar senha?</p>
+                    </label>
+                </div>
+
+                <a href="#" class="links"> Esqueceu a senha?</a>
+                
+            </div>
+
+
+            <div class="buttonpadrao">
+                 <input type="button" onclick="login()" value="Entrar">
+            </div>
+
+
+        </div>
+
+    </form>
+
+    <p> Ou </p>
+
+        <!-- Outro acesso -->
+        <div class="container cont3">
+
+            <ul>
+                 <li class="acessovia"><a href="#"><img class="socialmedia" src="./assets/icons/facebook.svg" alt="facebook"></a></li>
+                 <li class="acessovia"><a href="#"><img class="socialmedia" src="./assets/icons/google.svg" alt="facebook"></a></li>
+                 <li class="acessovia"><a href="#"><img class="socialmedia" src="./assets/icons/apple.svg" alt="facebook"></a></li>
+                 <p class="cadaslogin">Ainda não tem conta?<a href="cadastro.html" class="links"> Cadastre-se!</a></p>
+            </ul>
+
+        </div>
+
+    
+
+
+<script src="./scripts/forms.js"></script>  
+
+<footer>
+    <img src="./assets/logo/Desktop/Logo 29x29.png" class="footerp"></br>
+    <p class="footerp">TuRecetas</p></br>
+    <p class="footerp">© Desenvolvido por<a href="https://github.com/xavierruth" class="footerp">Ruth Xavier</a>.</p> </br>
+</footer>
+</body>
+</html>
