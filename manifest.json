@@ -1,0 +1,57 @@
+{
+  "name": "TURecetas",
+  "short_name": "UR",
+  "icons": [
+    {
+      "src": "assets/img/logo_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_90.png",
+      "sizes": "90x90",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_80.png",
+      "sizes": "80x80",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/logo_60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo_55.png",
+      "sizes": "55x55",
+      "type": "image/png"
+    },
+
+    {
+      "src": "assets/img/logo_29.png",
+      "sizes": "29x29",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "login.html",
+  "display": "standalone",
+  "background_color": "#FDCBCA",
+  "theme_color": "#4D5360"
+}
