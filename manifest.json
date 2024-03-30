@@ -1,6 +1,6 @@
 {
   "name": "TURecetas",
-  "short_name": "UR",
+  "short_name": "TURecetas",
   "icons": [
 
     {
@@ -74,10 +74,11 @@
     "orientation": "portrait",
     "background_color": "#79004F",
     "theme_color": "#FDCBCA",
+    "prefer_related_applications": true,
     "splash_screen": {
       "background_color": "#141414", 
       "icons": [{
-        "src": "assets/img/logo_80.png", 
+        "src": "assets/img/80.png", 
         "sizes": "209x42",
         "type": "image/png"
       }]
