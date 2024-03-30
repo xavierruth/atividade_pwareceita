@@ -50,8 +50,18 @@
       "type": "image/png"
     }
   ],
-  "start_url": "login.html",
-  "display": "standalone",
-  "background_color": "#FDCBCA",
-  "theme_color": "#4D5360"
-}
+    "start_url": "login.html",
+    "display": "standalone",
+    "background_color": "#FDCBCA",
+    "theme_color": "#4D5360",
+    "splash_screen": {
+      "background_color": "#141414", 
+      "icons": [{
+        "src": "assets/img/logo_80.png", 
+        "sizes": "209x42",
+        "type": "image/png"
+      }]
+    }
+  }
+  
+
