@@ -71,7 +71,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "description": "PWA de Receitas Caseiras",
   "orientation": "portrait",
